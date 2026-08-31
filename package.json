@@ -1,11 +1,20 @@
 {
-  "name": "arquitectura-tps",
+  "name": "bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Proyecto inicial de bot con Node.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch src/main.js",
+    "test": "jest",
+    "start": "node src/main.js"
   },
   "keywords": [],
-  "type": "commonjs"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
 }
